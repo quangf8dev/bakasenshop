@@ -1,0 +1,372 @@
+{
+    "user": [
+      {
+        "id": 1,
+        "email": "ngthanhtin68@gmail.com",
+        "password": "12345678"
+      },
+      {
+        "id": 2,
+        "email": "tramthu96@gmail.com",
+        "password": "87654321"
+      },
+      {
+        "id": 3,
+        "email": "quang82thcspb@gmail.com",
+        "password": "Quang2003"
+      },
+      {
+        "email": "asdfasdf@gmail.com",
+        "password": "12345678",
+        "id": 4
+      },
+      {
+        "email": "quang@gmail.com",
+        "password": "111111",
+        "id": 5
+      },
+      {
+        "email": "quang82thcspb@gmail.com",
+        "password": "111111",
+        "id": 6
+      },
+      {
+        "email": "quang82thcspb@gmail.com",
+        "password": "111111",
+        "id": 7
+      },
+      {
+        "email": "quang82thcspb@gmail.com",
+        "password": "1111111",
+        "id": 8
+      },
+      {
+        "email": "abcd@gmail.com",
+        "password": "11111111",
+        "id": 9
+      }
+    ],
+    "furniture": [
+      {
+        "name": "high-back bench",
+        "money": "$9.99",
+        "category": "classic",
+        "sale": "30%",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/d86e13eec1b200e2b21282b99a9382be/6d92321b?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=2db65a64c9dce165",
+        "id": 0
+      },
+      {
+        "name": "Utopia Sofa",
+        "money": "$39.95",
+        "category": "classic",
+        "sale": "30%",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/ee08b908ae61c8241f56130eedefac0a/22e0d8df?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=b1a0133fe8fabb2a",
+        "id": 1
+      },
+      {
+        "name": "Entertainment Center",
+        "money": "$29.98",
+        "category": "royal",
+        "sale": "50%",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/37c101731d977a9ff9c98530185b77e0/078958cd?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=789c5be6719f4b4c",
+        "id": 2
+      },
+      {
+        "name": "Albany Table",
+        "money": "$79.99",
+        "category": "",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/ecc03714fd1ff14f50d98834615da483/30525671?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=f9458f8ef77dfcdb",
+        "id": 3
+      },
+      {
+        "name": "Accent Chair",
+        "money": "$25.99",
+        "category": "royal",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/ececf357189e0a6506cdb45152271a5c/e0407792?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=803ca66229da757e",
+        "id": 4
+      },
+      {
+        "name": "Wooden Table",
+        "money": "$45.99",
+        "category": "royal",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/13b8798ce604dab29656905f94461083/2fcbbbba?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=ef99672f2447ec49",
+        "id": 5
+      },
+      {
+        "name": "Dining Table",
+        "money": "$6.99",
+        "category": "royal",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/292e8c59ea4278c67509f457ed713c9e/dbcee29d?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=a9f20e96c007041a",
+        "id": 6
+      },
+      {
+        "name": "Sofa Set",
+        "money": "$69.99",
+        "category": "modern",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/7ebbffdd8e9a1b0a6ecabf8765a01a93/91111f2f?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=baac09dc47c70a17",
+        "id": 7
+      },
+      {
+        "name": "Modern Bookshelf",
+        "money": "$8.99",
+        "category": "modern",
+        "sale": "80%",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/bd412f9b69724bf7cb63542c9d72cc19/70f9bf4a?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=8fb43164a3bcc26d",
+        "id": 8
+      },
+      {
+        "name": "Emperor Bed",
+        "money": "$21.99",
+        "category": "modern",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/a089f9304b965724c0e6828c96dd1a53/cf460909?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=839ac7392cbf3d58",
+        "id": 9
+      },
+      {
+        "name": "Albany Sectional",
+        "money": "$10.99",
+        "category": "classic",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/0f159a8ff208a1ca0683359d0bbcb204/dfa5455c?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=e1ff80e3b09429ed",
+        "id": 10
+      },
+      {
+        "name": "Leather Sofa",
+        "money": "$9.99",
+        "category": "classic",
+        "sale": "55%",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/0a5ef48cda665e63b6417fefb9998fff/668e4a7e?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=2ac2258901d57918",
+        "id": 11
+      },
+      {
+        "name": "high-back bench",
+        "money": "$9.99",
+        "category": "classic",
+        "image": "https://tronhouse.com/assets/data/editor/source/chup-anh-noi-that-va-nhung-thu-thuat-can-luu-y/chup-anh-noi-that-tron-house-6.jpg",
+        "id": 12
+      },
+      {
+        "name": "Utopia Sofa",
+        "money": "$39.95",
+        "category": "luxurious",
+        "image": "https://logoaz.net/wp-content/uploads/2019/02/meo-chung-chup-anh-noi-that-ngoai-that.jpg",
+        "id": 13
+      },
+      {
+        "name": "Entertainment Center",
+        "money": "$29.98",
+        "category": "luxurious",
+        "image": "https://lavenderstudio.com.vn/wp-content/uploads/2017/08/chup-hinh-noi-that-9-1024x683.jpg",
+        "id": 14
+      },
+      {
+        "name": "Albany Table",
+        "money": "$79.99",
+        "category": "modern",
+        "image": "https://noithathometime.com/wp-content/uploads/2019/07/thi%E1%BA%BFt-k%E1%BA%BF-n%E1%BB%99i-th%C3%A2t-ph%C3%B2ng-kh%C3%A1ch-t%E1%BA%A1i-h%E1%BA%A3i-ph%C3%B2ng-noithathometime-08.jpg",
+        "id": 15
+      },
+      {
+        "name": "Accent Chair",
+        "money": "$25.99",
+        "category": "modern",
+        "image": "https://kientrucphandung.com/wp-content/uploads/2019/04/3.png",
+        "id": 16
+      },
+      {
+        "name": "Wooden Table",
+        "money": "$45.99",
+        "category": "modern",
+        "image": "https://akisa.vn/uploads/plugin/product_items/13698/thiet-ke-noi-that-nha-pho-dep-nt32433-v2.jpg",
+        "id": 17
+      },
+      {
+        "name": "Dining Table",
+        "money": "$6.99",
+        "category": "luxurious",
+        "image": "https://noithathoanthienvinhan.com/wp-content/uploads/2021/11/phong-khach-tan-co-dien-vinhomes.jpg",
+        "id": 18
+      },
+      {
+        "name": "Sofa Set",
+        "money": "$69.99",
+        "category": "royal",
+        "image": "https://ludesign.vn/wp-content/uploads/2020/10/ludesign-thiet-ke-noi-that-nha-pho-quan-4-tphcm-21.jpg",
+        "id": 19
+      },
+      {
+        "name": "Modern Bookshelf",
+        "money": "$8.99",
+        "category": "modern",
+        "image": "https://ktshanoi.net/admin/uploadpicture/thiet-ke-noi-that-phong-khach-luon-tuoi-tre-2.jpg",
+        "id": 20
+      },
+      {
+        "name": "Emperor Bed",
+        "money": "$21.99",
+        "category": "luxurious",
+        "image": "https://neohouse.vn/wp-content/uploads/2020/03/noi-that-biet-thu-dep-phong-khach.jpg",
+        "id": 21
+      },
+      {
+        "name": "Albany Sectional",
+        "money": "$10.99",
+        "category": "classic",
+        "image": "https://dl.airtable.com/.attachmentThumbnails/0f159a8ff208a1ca0683359d0bbcb204/dfa5455c?ts=1658011573&userId=usrQMwWEPx18KgLcP&cs=e1ff80e3b09429ed",
+        "id": 22
+      },
+      {
+        "name": "page-2",
+        "money": "$16.99",
+        "category": "royal",
+        "image": "https://tuonglamphotos.com/wp-content/uploads/2020/04/chup-anh-noi-that-tuonglamphotos.com-44.jpg",
+        "id": 23
+      },
+      {
+        "name": "page-3",
+        "money": "$56.5",
+        "category": "royal",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 24
+      },
+      {
+        "name": "page-4",
+        "money": "$19.4",
+        "category": "modern",
+        "image": "https://noithathometime.com/wp-content/uploads/2019/07/thi%E1%BA%BFt-k%E1%BA%BF-n%E1%BB%99i-th%C3%A2t-ph%C3%B2ng-kh%C3%A1ch-t%E1%BA%A1i-h%E1%BA%A3i-ph%C3%B2ng-noithathometime-09.jpg",
+        "id": 25
+      },
+      {
+        "name": "page-5",
+        "money": "$29.9",
+        "category": "luxurious",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 26
+      },
+      {
+        "name": "page-6",
+        "money": "$33.3",
+        "category": "luxurious",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 27
+      },
+      {
+        "name": "page-7",
+        "money": "$56.6",
+        "category": "luxurious",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 28
+      },
+      {
+        "name": "page-8",
+        "money": "$66.6",
+        "category": "royal",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 29
+      },
+      {
+        "name": "page-9",
+        "money": "$79.9",
+        "category": "classic",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 30
+      },
+      {
+        "name": "page-10",
+        "money": "$55.5",
+        "category": "modern",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 31
+      },
+      {
+        "name": "page-11",
+        "money": "$12.68",
+        "category": "modern",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 32
+      },
+      {
+        "name": "page-12",
+        "money": "$13",
+        "category": "classic",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 33
+      },
+      {
+        "name": "page-13",
+        "money": "$40",
+        "category": "royal",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 34
+      },
+      {
+        "name": "page-14",
+        "money": "$39.9",
+        "category": "luxurious",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 35
+      },
+      {
+        "name": "page-15",
+        "money": "$25.5",
+        "category": "modern",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 36
+      },
+      {
+        "name": "page-16",
+        "money": "$11.56",
+        "category": "royal",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 37
+      },
+      {
+        "name": "page-17",
+        "money": "$11.99",
+        "category": "classic",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 38
+      },
+      {
+        "name": "page-18",
+        "money": "$75.7",
+        "category": "royal",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 39
+      },
+      {
+        "name": "page-19",
+        "money": "$25.6",
+        "category": "luxurious",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 40
+      },
+      {
+        "name": "page-20",
+        "money": "$38.9",
+        "category": "modern",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 41
+      },
+      {
+        "name": "page-21",
+        "money": "$19.2",
+        "category": "royal",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 42
+      },
+      {
+        "name": "page-22",
+        "money": "$20",
+        "category": "classic",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 43
+      },
+      {
+        "name": "page-23",
+        "money": "$50",
+        "category": "luxurious",
+        "image": "https://picart.vn/wp-content/uploads/2020/04/gallery-phong-khach-picart-01.jpg",
+        "id": 44
+      }
+    ]
+    
+  }

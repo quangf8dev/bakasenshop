@@ -1,0 +1,38 @@
+.invalid input{
+  border: 1px solid red;
+}
+html{
+  font-size: 120%!important;
+}
+
+.invalid span{
+    color: red;
+}
+#form-1, #form-2{
+  display: flex;
+  box-shadow: 4px 4px 4px var( --clr-grey-4);
+}
+.end-form{
+  display: none!important;
+  
+}
+.login-main{
+  height: 100vh;
+  background: url("/masterwebsite/img/bg-login.jpg") ;
+  background-size: cover;
+
+}
+.create-main{
+  height: 100vh;
+  background:url("/masterwebsite/img/bg-create.jpg") ;
+  background-size: cover;
+}
+.failure{
+  display: none;
+}
+
+@media (max-width: 600px) {
+   html{
+    font-size: 90%!important;
+   }
+}

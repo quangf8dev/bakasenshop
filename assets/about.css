@@ -1,0 +1,105 @@
+    /* Landing page About CSS */
+
+    /* Slide 1 */
+
+    .slide-one img{
+        width: 100vw;
+        height: 100vh;
+        opacity:0.8 ;
+        object-fit: cover;
+    }
+
+    .brand-name{
+        font-size: 6rem;
+        text-shadow: 3px 3px white;
+    }
+
+    .brand-name p{
+        text-shadow: 2px 2px var(--clr-primary-8)
+    }
+
+    .navbar{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(162, 157, 157));
+        opacity: 0.7;
+    }
+
+    /* Slide 2 */
+
+    #history{
+        padding: 3rem;
+    }
+
+    .slide-two{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-sl2 img{
+        opacity: 0.7;
+    }
+
+    /* img hover */
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height:100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: black;
+    }
+
+    .container:hover .overlay {
+        opacity: 1;
+        cursor: pointer;
+    }
+
+    .text-img{
+        top: 50%;
+        left: 40%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-shadow: 3px 3px var(--clr-grey-3);
+    }
+
+    .fa-thumbs-up{
+        font-size: 4rem;
+    }
+
+    /*slide 3 */
+
+    .icon-hover:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    /* Slide 4 */
+
+    .btn-contact button:hover{
+        border: 2px solid black;
+        background-color: white!important;
+        color: black!important;
+    }
+
+    .main-contact{
+        background-color: var(--clr-grey-10);
+    }
+
+    /* Responsive website */
+
+    @media (max-width:664px) {
+        html{
+            font-size: 60%;
+        }
+    }
+    @media (max-width:360px) {
+        html{
+            font-size: 30%;
+        }
+    }

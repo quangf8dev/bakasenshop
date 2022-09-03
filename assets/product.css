@@ -1,0 +1,142 @@
+
+
+    /* Website Product CSS */
+
+    header{
+        background-color: var(--clr-grey-10);
+    }
+
+    .menu-sidebar{
+        position: fixed;
+    }
+
+    #demo{
+        max-width: 90%;
+        max-height: 45%;
+    }
+
+    .companies button{
+        background: none;
+        border: none;
+    }
+
+    .companies button:hover{
+        color: var(--clr-grey-7)!important;
+    }
+
+    .input-form input{
+        width: 8rem;
+        font-size: 80%;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid var(--clr-grey-5);
+    }
+
+    .item-main .row .col-md-4{
+        width: 31%;
+    }
+
+    /*search*/
+    #myInput {
+        background-image: url('/css/searchicon.png');
+        background-position: 10px 12px;
+        background-repeat: no-repeat;
+        width: 102%;
+        font-size: 75%;
+        padding: 5%;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+    }
+
+    .popup-checked{
+        display:block;
+    }
+
+    .show-checked{
+        display: none!important;
+    }
+
+    .fs-8{
+        font-size: 0.7rem;
+    }
+
+
+
+    @media (max-width: 360px) {
+
+        .col-10{
+            margin: 0.5rem!important;
+        }
+        .col-sm-10, .col-10{
+            width: 100%!important;
+            margin-left: 3rem;
+        }
+        .col-sm-10 img{
+            height: 9rem!important;
+        }
+        .shop-main{
+            display: block!important;
+        }
+        .col-2 {
+            width: 100%;
+            border-bottom: 2px solid var(--clr-grey-4);
+        }
+        .price-form input{
+            width: 70%;
+        }
+
+    }
+    @media (max-width: 799px) {
+
+        .col-sm-10{
+            margin-bottom: 1em;
+            margin-right: 0rem;
+        }
+        .col-sm-10 img{
+            height: 14rem;
+            width: 100%!important;
+        }
+        html{
+            font-size: 70%;
+        } 
+
+    }
+    @media (max-width:575px) {
+
+        .col-sm-10{
+            width: 80%;
+        }
+        .col-sm-10 img{
+            height: 7rem;
+            padding-left: 5px;
+        } 
+        .shop-main col-2{
+            font-size: 70%!important;
+        }
+        .sidebar{
+            padding: 5px!important;
+        }
+        html{
+        font-size: 70%!important;
+        }
+        .input-form input{
+            width: 90%;
+        }
+
+    }
+    @media (min-width:992px) {
+
+        .input-form input{
+            width: 120%;}
+
+    }
+    @media (max-width: 991px) {
+
+        html{
+            font-size: 70%;
+        }
+    .price-form input{
+        width: 70%;
+    }
+    
+    }

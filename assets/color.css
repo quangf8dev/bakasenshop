@@ -1,0 +1,109 @@
+    :root{
+
+        --clr-primary-1: hsl(0, 0%, 0%);
+        --clr-primary-2: hsla(0, 0%, 0%, 0.819);
+        --clr-primary-3: rgba(5, 2, 0, 0.618);
+        --clr-primary-4: hsla(0, 0%, 0%, 0.44);
+        --clr-primary-5: hsla(0, 0%, 0%, 0.291);
+        --clr-primary-6: hsla(0, 87%, 3%, 0.084);
+        --clr-primary-7: hsla(23, 100%, 2%, 0.123);
+        --clr-primary-8: hsla(30, 2%, 18%, 0.042);
+        --clr-primary-9: hsl(15, 4%, 82%);
+        --clr-primary-10: hsl(0, 0%, 93%);
+        --clr-grey-1: #102a42;
+        --clr-grey-2: hsl(211, 39%, 23%);
+        --clr-grey-3: hsl(209, 34%, 30%);
+        --clr-grey-4: hsl(209, 28%, 39%);
+        --clr-grey-5: hsl(210, 22%, 49%);
+        --clr-grey-6: hsl(209, 23%, 60%);
+        --clr-grey-7: hsl(211, 27%, 70%);
+        --clr-grey-8: hsl(210, 31%, 80%);
+        --clr-grey-9: hsl(212, 33%, 89%);
+        --clr-grey-10: hsl(210, 36%, 96%);
+        --clr-white: #fff;
+        --clr-red-dark: rgb(3, 3, 3);
+        --clr-red-light:  hsl(0, 0%, 3%);
+        --clr-green-dark: hsl(125, 67%, 44%);
+        --clr-green-light: hsl(125, 71%, 66%);
+        --clr-black: #222;
+        --transition: all 0.3s linear;
+        
+
+     
+
+    }
+    /* Setting color Bakasen */
+    .primary-4{
+        color: var(--clr-primary-4)!important;
+    }
+
+    .bg-primary-4{
+        background-color: var(--clr-primary-4)!important;;
+    }
+
+    .bg-primary-10{
+        background-color: var(--clr-primary-10)!important;
+    }
+
+    .bg-primary-9{
+        background-color: var(--clr-primary-9)!important;
+    }
+
+    .primary-7{
+        color: var(--clr-primary-7)!important;
+    }
+
+    .grey-5{
+        color: var(--clr-grey-5)!important;
+    }
+
+    .grey-3{
+        color: var(--clr-grey-3)!important;
+    }
+
+    .grey-9{
+        color: var(--clr-grey-9)!important;
+    }
+
+    .bg-grey-5{
+        background-color: var(--clr-grey-5)!important;
+    }
+
+    .bg-grey-9{
+        background-color: var(--clr-grey-9)!important;
+    }
+
+    .bg-red-light{
+        background-color: var(--clr-red-light)!important;
+    }
+
+    .bg-primary-5{
+        background-color: var(--clr-primary-5);
+    }
+
+    /* Navbar website CSS */
+
+    /* index  nav */
+
+    .index-nav #navbarNavDropdown ul li a,
+    .index-nav .navbar-brand,
+    .index-nav button
+    {
+        color: white;
+    }
+
+    /* product nav */
+    .product-nav #navbarNavDropdown ul li a,
+    .product-nav .navbar-brand,
+    .product-nav button
+    {
+        color: rgb(11, 11, 11);
+    }
+    .product-nav .navbar-brand{
+        text-shadow:3px 3px var(--clr-grey-6);
+    }
+    .text-shadow{
+        text-shadow: 3px 3px var(--clr-grey-5)!important;
+    }
+
+    /* Navbar website CSS */
